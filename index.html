@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <title>КУЗОВНОЙ ЦЕХ</title>
+  </head>
+
+  <body>
+    <header class="header container flex justify-between items-center">
+      <div class="header__logo grid">
+        <a class="logo" href="#"
+          ><img src="./docs/images/logo.png" alt="logo"
+        /></a>
+        <a href="mailto:info@kuz-nn.ru">Еmail: info@kuz-nn.ru</a>
+      </div>
+
+      <div class="header__social flex items-center">
+        <a href=""><img src="./docs/images/vk.svg" alt="vk" /> </a>
+        <a href=""><img src="./docs/images/instagram.svg" alt="" /> </a>
+      </div>
+
+      <div class="header__contact grid">
+        <a href="tel:+88312161703">8(831) 216-17-03</a>
+        <address>Нижний Новгород, ул.Свободы, д.65</address>
+      </div>
+    </header>
+
+    <main class="main">
+      <section
+        class="hero"
+        style="background-image: url(./docs/images/fon-2.png)"
+      >
+        <div
+          class="hero__wrpapper grid"
+          style="background-image: url(./docs/images/car.png)"
+        >
+          <div class="hero__content container">
+            <h1 class="h1 hero__title">
+              <span>КУЗОВНОЙ</span>
+              <span>с обязательной гарантией 6 месяцев</span>
+              <span>РЕМОНТ</span>
+              <span>репутация с 2015</span>
+            </h1>
+          </div>
+
+          <div
+            class="hero__discount container flex justify-between items-center"
+          >
+            <div class="hero__discount-box grid">
+              <span>Ремонт дешевле</span>
+              <span class="flex"><i>на</i> 45 %</span>
+              <span>официального дилера</span>
+            </div>
+            <div
+              class="hero__discount-form grid"
+              style="background-image: url(./docs/images/bg-form.png)"
+            >
+              <p>Получить окраску 3ей детали в подарок</p>
+              <form class="grid">
+                <input type="text" placeholder="Имя" />
+                <input type="text" placeholder="Телефон" />
+                <button type="submit">Оставить заявку</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div
+        class="about"
+        style="background-image: url(./docs/images/cars-1.png)"
+      >
+        <div class="about__wrapper container">
+          <ul class="about__items flex justify-between">
+            <li class="grid justify-items-center">
+              <span>5</span>
+              <span>высококлассных специалистов, имеющих сертификаты</span>
+            </li>
+            <li class="grid justify-items-center">
+              <span>927 </span
+              ><span>клиентов уже выбрали нас и остались довольны</span>
+            </li>
+            <li class="grid justify-items-center">
+              <span>4</span>
+              <span>года успешных работ по покраске</span>
+            </li>
+            <li class="grid justify-items-center">
+              <span>6</span>
+              <span>месяцев гарантии на все выполненные работы</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="about__video">
+          <div
+            class="about__video-wrapper container flex justify-between items-center"
+          >
+            <div class="about__video-box">
+              <video src="./docs/video/video.mp4" controls></video>
+            </div>
+            <div class="about__video-text">
+              <h3>О нас за 60 секунд</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section
+        class="services section"
+        style="background-image: url(./docs/images/men.png)"
+      >
+        <div class="services__wrapper container">
+          <h2 class="services__title text-center">НАШИ УСЛУГИ</h2>
+          <p class="services__descr text-center">
+            Покраска и кузовной ремонт автомобилей в Нижнем Новгороде
+          </p>
+          <div class="services__swiper">
+            <div class="swiper mySwiper">
+              <div class="swiper-pagination"></div>
+              <div class="services__button-box flex">
+                <button class="services__button-next">
+                  <img src="./docs/images/awrrow.png" alt="arrow" />
+                </button>
+                <button class="services__button-prev">
+                  <img src="./docs/images/awrrow.png" alt="arrow" />
+                </button>
+              </div>
+              <div class="services__swiper-wrapper swiper-wrapper">
+                <div class="swiper-slide text-center">
+                  <h3>Удаление вмятин</h3>
+                  <p>
+                    Удаление вмятин с использованием специального инструмента
+                    без покраски кузовного элемента (технология pdr)
+                  </p>
+                  <p>Цены</p>
+                  <p>от <span>8 000 р</span></p>
+                  <a class="btn" href="#">Оставить заявку</a>
+                </div>
+
+                <div class="swiper-slide text-center">
+                  <h3>Удаление вмятин</h3>
+                  <p>
+                    Удаление вмятин с использованием специального инструмента
+                    без покраски кузовного элемента (технология pdr)
+                  </p>
+                  <p>Цены</p>
+                  <p>от <span>4 000 р</span></p>
+                  <a class="btn" href="#">Оставить заявку</a>
+                </div>
+
+                <div class="swiper-slide text-center">
+                  <h3>Ремонт бамперов</h3>
+                  <p>
+                    Качественный ремонт бамперов, исправление любого рода
+                    повреждений, восстановление исходного вида детали
+                  </p>
+                  <p>Цены</p>
+                  <p>от <span>4 000 р</span></p>
+                  <a class="btn" href="#">Оставить заявку</a>
+                </div>
+
+                <div class="swiper-slide text-center">
+                  <h3>Ремонт бамперов</h3>
+                  <p>
+                    Качественный ремонт бамперов, исправление любого рода
+                    повреждений, восстановление исходного вида детали
+                  </p>
+                  <p>Цены</p>
+                  <p>от <span>4 000 р</span></p>
+                  <a class="btn" href="#">Оставить заявку</a>
+                </div>
+
+                <div class="swiper-slide text-center">
+                  <h3>Ремонт бамперов</h3>
+                  <p>
+                    Качественный ремонт бамперов, исправление любого рода
+                    повреждений, восстановление исходного вида детали
+                  </p>
+                  <p>Цены</p>
+                  <p>от <span>4 000 р</span></p>
+                  <a class="btn" href="#">Оставить заявку</a>
+                </div>
+
+                <div class="swiper-slide text-center">
+                  <h3>Ремонт бамперов</h3>
+                  <p>
+                    Качественный ремонт бамперов, исправление любого рода
+                    повреждений, восстановление исходного вида детали
+                  </p>
+                  <p>Цены</p>
+                  <p>от <span>4 000 р</span></p>
+                  <a class="btn" href="#">Оставить заявку</a>
+                </div>
+
+                <div class="swiper-slide text-center">
+                  <h3>Ремонт бамперов</h3>
+                  <p>
+                    Качественный ремонт бамперов, исправление любого рода
+                    повреждений, восстановление исходного вида детали
+                  </p>
+                  <p>Цены</p>
+                  <p>от <span>4 000 р</span></p>
+                  <a class="btn" href="#">Оставить заявку</a>
+                </div>
+
+                <div class="swiper-slide text-center">
+                  <h3>Ремонт бамперов</h3>
+                  <p>
+                    Качественный ремонт бамперов, исправление любого рода
+                    повреждений, восстановление исходного вида детали
+                  </p>
+                  <p>Цены</p>
+                  <p>от <span>4 000 р</span></p>
+                  <a class="btn" href="#">Оставить заявку</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="cost">
+        <div class="cost__wrapper grid container">
+          <div class="cost__content">
+            <h3 class="">Оценка стоимости ремонта по фото</h3>
+            <p>
+              Отправьте фото поврежденной детали нам через Viber и WhatsApp на
+              номер или на электронную почту <span>info@kuz-nn.ru</span> и наши
+              мастера оценят примерную стоимость ремонта
+            </p>
+            <a href="tel:+89081638144">8(908)1638144</a>
+            <form class="grid">
+              <input type="text" placeholder="Имя" />
+              <input type="text" placeholder="Телефон" />
+              <div>
+                <button class="btn">Добавить фото</button>
+                <button class="btn" type="submit">Оставить заявку</button>
+              </div>
+            </form>
+          </div>
+          <div class="cost__img">
+            <img src="./docs/images/iPhone-12-Pro.png" alt="iphone" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer"></footer>
+
+    <script type="module" src="/src/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>

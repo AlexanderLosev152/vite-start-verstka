@@ -1,0 +1,19 @@
+@import 'normalize.css';
+@import 'swiper-bundle.css';
+
+@import './scss/utils/media';
+
+@import './scss/globals/reset';
+@import './scss/globals/vars';
+@import './scss/globals/container';
+@import './scss/globals/fonts';
+@import './scss/globals/tailwind-classes';
+@import './scss/globals/typography';
+
+body {
+	font-family: var(--font-family);
+	font-size: var(--fs-7);
+	font-weight: var(--font-weight);
+	color: var(--ligth);
+	background: var(--bg);
+}

@@ -1,0 +1,11 @@
+$mobile-mini: 26rem; // 420px;
+$mobile: 36rem; // 576px;
+$tablet: 48rem; // 768px;
+$tablet-big: 56rem; // (896px)
+$laptop: 64rem; // 1024px;
+
+@mixin media($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
